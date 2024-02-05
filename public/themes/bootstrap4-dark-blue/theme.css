@@ -51,6 +51,15 @@
   box-sizing: border-box;
 }
 
+/* START MUI CSS CUSTOM */
+.css-1hv8oq8-MuiStepLabel-label.Mui-active,.css-1hv8oq8-MuiStepLabel-label.Mui-completed, .css-1hv8oq8-MuiStepLabel-label{
+  color: white;
+  font-size: medium;
+}
+.css-ahj2mt-MuiTypography-root{
+  color: white;
+}
+/* END MUI CSS CUSTOM */
 .p-component {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;

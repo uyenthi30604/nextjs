@@ -7,7 +7,7 @@ import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
 import '../styles/layout/layout.scss';
 import { ReduxProvider } from '@/redux/provider';
-import BootstrapClient from '../app/shared/components/BootstrapClient.js'
+import BootstrapClient from './shared/components/bootstrap/BootstrapClient.js'
 // import StoreProvider from './StoreProvider';
 // import '../styles/demo/Demos.scss';
 

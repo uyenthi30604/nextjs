@@ -9,8 +9,16 @@ import { InputText } from 'primereact/inputtext';
 import { Tag } from 'primereact/tag';
 import { Toolbar } from 'primereact/toolbar';
 import React, { useEffect, useRef, useState } from 'react'
-import { IForm } from '@/service/formlot/formInterface';
-import { FormLotService } from '@/service/formlot/formlotService';
+
+export interface IForm {
+    id: number;
+    sequenceNo: number;
+    process: string | '';
+    machine_no: string | '';
+    date: string | null;
+    authority: string | ''
+}
+
 
 export var formData: IForm[] = [
     {

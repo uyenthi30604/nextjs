@@ -23,7 +23,7 @@ const AppMenu = () => {
             label: 'API',
             items: [
                 { label: 'Test API', icon: 'pi pi-arrow-right-arrow-left', to: '/testapi' },
-                { label: 'Test route', icon: 'pi pi-arrow-right-arrow-left', to: '/testroute/routechild' }
+                
             ]
         },
         {

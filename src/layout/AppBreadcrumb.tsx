@@ -11,10 +11,9 @@ function AppBreadcrumb() {
     const breadcrumb_val = BreadCrumbContext;
     
     var path_item = (pathname.slice(1)).split('/');
-    console.log("path_item", path_item);
-    console.log("path_item.length", path_item.length);
+    // console.log("path_item", path_item);
+    // console.log("path_item.length", path_item.length);
     path_item.map((item: any) => {
-        // console.log("item", item);
         var index_path = breadcrumb_val.findIndex(x => x.breadcrumb == (item));
         var temp_path = "";
         var temp_label = "";

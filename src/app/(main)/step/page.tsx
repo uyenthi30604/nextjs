@@ -1,4 +1,5 @@
 'use client'
+import QrCodeComponent from '@/app/shared/components/qrcode/QrCodeComponent';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
@@ -129,12 +130,20 @@ function StepperMUI() {
 
                                 <Typography sx={{ mt: 2, mb: 1, py: 1 }}>
                                     Step {activeStep + 1}
-                                    {activeStep == 0 && (
+                                    
+                                </Typography>
+                                {activeStep == 0 && (
                                         <div className="card flex justify-content-center">
                                             <InputText value={value} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)} />
+                                            <QrCodeComponent turnOnCam={true}></QrCodeComponent>
                                         </div>
                                     )}
-                                </Typography>
+                                    {activeStep == 1 && (
+                                        <div className="card flex justify-content-center">
+                                            <InputText value={value} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue(e.target.value)} />
+                                            <QrCodeComponent turnOnCam={true}></QrCodeComponent>
+                                        </div>
+                                    )}
                                 <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
                                     <Button
                                         color="inherit"
