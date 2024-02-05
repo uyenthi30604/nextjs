@@ -1,0 +1,9 @@
+{
+    "data":[
+        {"id":1, "code": "ABC101", "value": 300},
+        {"id":2, "code": "ABC102", "value": 100},
+        {"id":3, "code": "ABC103", "value": 200},
+        {"id":4, "code": "ABC104", "value": 150},
+        {"id":5, "code": "ABC105", "value": 200}
+    ]
+}

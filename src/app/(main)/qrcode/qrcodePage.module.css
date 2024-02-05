@@ -1,0 +1,9 @@
+.qrDialog {
+  width: "30vw";
+}
+
+@media (max-width: 1024px) {
+  .qrDialog {
+    width: "90vw";
+  }
+}
