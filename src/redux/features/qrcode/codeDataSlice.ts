@@ -11,6 +11,9 @@ export const qrcodeSlice = createSlice({
       state.value[0].value += action.payload.box;
       console.log("add action", action);
     },
+    setValue: (state, action) => {
+      state.value = action.payload;
+    },
   },
 });
 

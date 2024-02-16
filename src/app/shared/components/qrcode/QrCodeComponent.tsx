@@ -4,7 +4,8 @@ import { Button } from 'primereact/button'
 import QrScanner from 'qr-scanner';
 
 interface Props {
-    turnOnCam: boolean
+    turnOnCam: boolean,
+    // onChangeResult: Event check add event to get data that chid give back to parent
 }
 
 const QrCodeComponent = (props: Props) => {
